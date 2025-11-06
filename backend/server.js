@@ -21,10 +21,10 @@ app.use(cors({ origin: 'http://localhost:5174',
     credentials: true }));
 app.use(cookieParser());
 app.use(express.json());
-app.use("/uploads", express.static("uploads"));
 
 
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
+
 app.use("/api/auth", authRoutes);
 app.use("/api/books", bookRoutes);
 app.use("/api/books/notes", noteRoutes);
