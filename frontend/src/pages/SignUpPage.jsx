@@ -62,7 +62,7 @@ const SignUpPage = () => {
                         <div className="text-center space-y-3 mt-6 flex-col items-center justify-center">
                             <h2 className="text-xl text-gray-100 font-semibold">Read smarter. Summarize faster. Remember better.</h2>
                             <p className="text-gray-300 opacity-70">
-                                From reading to insight - instantly with InkWell.
+                                From reading to insight - instantly with Studyeez.
                             </p>
                         </div>
                     </div>
@@ -73,7 +73,7 @@ const SignUpPage = () => {
                         <div className="mb-4 flex items-center justify-start gap-2">
                             <BookOpen className="size-9 text-primary" />
                             <span className="text-3xl font-bold font-mono bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary tracking-wider">
-                                InkWell
+                                Studyeez
                             </span>
                         </div>
                         <div>
@@ -82,7 +82,7 @@ const SignUpPage = () => {
                                     <div className='text-white'>
                                         <h2 className="text-xl font-semibold">Create an Account</h2>
                                         <p className="text-sm opacity-70">
-                                            Join InkWell and read the way you want !
+                                            Join Studyeez and read the way you want !
                                         </p>
                                     </div>
 
